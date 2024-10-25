@@ -8,7 +8,7 @@ import WeatherSlider from '../components/WeatherSlider';
 import { getIconSource } from '@/utils/getIconSource';
 
 const devURL = 'http://localhost:5000';
-const prodURL = 'something';
+const prodURL = 'https://weather-api-wrapper-service-be.vercel.app';
 
 const getBaseURL = () => {
   return process.env.NODE_ENV === 'development' ? devURL : prodURL;
@@ -35,7 +35,7 @@ const WeatherApp = () => {
       const response = await axios.get(`${getBaseURL()}/weather`, {
         params: { city },
       });
-      console.log(response.data);
+
       setWeatherData(response.data);
     } catch (error) {
       console.error('Failed to fetch weather data!');
@@ -45,10 +45,10 @@ const WeatherApp = () => {
   };
 
   return (
-    <div>
+    <div className="mb-8">
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col items-center px-6 py-12 mt-8 mb-8 bg-indigo-300 rounded-2xl gap-y-8"
+        className="flex flex-col items-center px-6 py-12 mt-8 bg-indigo-300 rounded-2xl gap-y-8"
       >
         <h1 className="text-4xl font-bold text-center text-white">
           Weather App 🌦️
