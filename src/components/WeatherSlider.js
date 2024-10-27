@@ -1,15 +1,3 @@
-// 'use client';
-
-// import { useRef, useState } from 'react';
-// import Image from 'next/image';
-// import { getIconSource } from '@/utils/getIconSource';
-
-// const WeatherSlider = ({ hourlyData }) => {
-//   const sliderRef = useRef(null);
-//   const [isDragging, setIsDragging] = useState(false);
-//   const [startPosition, setStartPosition] = useState(0);
-//   const [scrollLeft, setScrollLeft] = useState(0);
-
 //   const handleMouseDown = (e) => {
 //     setIsDragging(true);
 //     setStartPosition(e.pageX - sliderRef.current.offsetLeft);
