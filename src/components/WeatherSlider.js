@@ -1,10 +1,3 @@
-//   const handleMouseDown = (e) => {
-//     setIsDragging(true);
-//     setStartPosition(e.pageX - sliderRef.current.offsetLeft);
-//     setScrollLeft(sliderRef.current.scrollLeft);
-//     sliderRef.current.style.cursor = 'grabbing';
-//   };
-
 //   const handleMouseLeave = () => {
 //     setIsDragging(false);
 //     sliderRef.current.style.cursor = 'grab';
