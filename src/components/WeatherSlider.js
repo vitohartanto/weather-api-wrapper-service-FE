@@ -1,8 +1,3 @@
-//   const handleMouseLeave = () => {
-//     setIsDragging(false);
-//     sliderRef.current.style.cursor = 'grab';
-//   };
-
 //   const handleMouseUp = () => {
 //     setIsDragging(false);
 //     sliderRef.current.style.cursor = 'grab';
