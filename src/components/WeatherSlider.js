@@ -1,10 +1,3 @@
-//   const handleMouseMove = (e) => {
-//     if (!isDragging) return;
-//     e.preventDefault();
-//     const x = e.pageX - sliderRef.current.offsetLeft;
-//     const walk = (x - startPosition) * 1.5; // Adjust scroll speed if needed
-//     sliderRef.current.scrollLeft = scrollLeft - walk;
-//   };
 
 //   return (
 //     <div
