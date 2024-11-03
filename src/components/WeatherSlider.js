@@ -1,13 +1,3 @@
-
-//   return (
-//     <div
-//       className="mb-8 wrapper-slider cursor-grab"
-//       ref={sliderRef}
-//       onMouseDown={handleMouseDown}
-//       onMouseUp={handleMouseUp}
-//       onMouseLeave={handleMouseLeave}
-//       onMouseMove={handleMouseMove}
-//     >
 //       <div className="flex flex-col bg-indigo-400 flex-ccolgap-4 slider">
 //         {hourlyData.map((hour, index) => (
 //           <div
