@@ -1,6 +1,3 @@
-//       <div className="flex flex-col bg-indigo-400 flex-ccolgap-4 slider">
-//         {hourlyData.map((hour, index) => (
-//           <div
 //             key={index}
 //             className="min-w-[150px] flex flex-col items-center p-4 bg-white rounded-lg shadow-md"
 //           >
