@@ -1,6 +1,3 @@
-//             key={index}
-//             className="min-w-[150px] flex flex-col items-center p-4 bg-white rounded-lg shadow-md"
-//           >
 //             <h3 className="text-lg font-semibold">{hour.datetime}</h3>
 //             <Image
 //               src={getIconSource(hour.icon)}
