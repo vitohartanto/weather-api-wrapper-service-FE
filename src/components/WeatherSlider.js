@@ -1,6 +1,3 @@
-//             <h3 className="text-lg font-semibold">{hour.datetime}</h3>
-//             <Image
-//               src={getIconSource(hour.icon)}
 //               alt={hour.conditions}
 //               width={50}
 //               height={50}
