@@ -1,5 +1,4 @@
-//               alt={hour.conditions}
-//               width={50}
+
 //               height={50}
 //             />
 //             <p className="text-xl">{hour.temp}°C</p>
